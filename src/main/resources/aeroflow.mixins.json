@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.unredpass.aeroflow.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientConnectionMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
