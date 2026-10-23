@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "aeroflow",
+  "version": "${version}",
+  "name": "AeroFlow",
+  "description": "Network and rendering optimization suite with a modern F8 GUI.",
+  "authors": ["UNredPASS"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/aeroflow/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.unredpass.aeroflow.AeroFlow"],
+    "client": ["com.unredpass.aeroflow.client.AeroFlowClient"]
+  },
+  "mixins": ["aeroflow.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "sgl": "*"
+  },
+  "recommends": {
+    "modernui": "*"
+  }
+}
